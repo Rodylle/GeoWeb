@@ -12,14 +12,16 @@
 li, a, button {  
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
+    font-weight: bold;
+
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 30px 10%;
     background-color: #005d63; 
@@ -32,6 +34,7 @@ header {
 
  .nav_links { 
     list-style: none;
+    font-weight: bold;
 }
 
 .nav_links li { 
@@ -49,6 +52,7 @@ header {
 }
 
 button {
+    margin-left: 50px;
     padding: 9px 25px;
     background-color: #5eabe1;
     border: none;
@@ -60,6 +64,8 @@ button {
 button:hover {
     background-color: #f3a547;
  } 
+
+ 
 
 
 
@@ -198,10 +204,32 @@ section.fond {
     height: 10vh;
 }
 
+/* .h3 {
+    font-size: 40px;
+    color: #5eabe1;
+} */
+
+
+
 .h3 {
     font-size: 40px;
     color: #5eabe1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 1.6rem;
+    /* text-decoration-line: line-through; 
+    text-decoration-color: black;
+    text-decoration-thickness: 0.2em; */
 }
+
+.h3::before, .h3::after {
+    content: "";
+    height: 3px;
+    background-color: white;
+    display: block;
+}
+
 
 
 /* Timeline */
@@ -251,6 +279,7 @@ h1 {
 .r2{top: 386px;}
 .r3{top: 692px;}
 .r4{top: 1000px;}
+
 
 .box {
     color: #333;
@@ -379,15 +408,78 @@ section.ppl {
 .profile-top {
     height: 250px;
     width: 500px;
-    background-image: url(Images/buildings-g2ffd8205e_640.jpg);
+    background-image: url(Images//Background2.png);
     background-position: center;
     background-size: cover;
     position: relative;
 }
+.profile-image-este {
+    background-image: url(Images/esteban.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    /* position: relative; */
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
 
-.profile-image {
-    background-image: url(Images/portrait-g9b20c5fc0_640.jpg);
+.profile-image-eva {
+    background-image: url(Images/evariste.jpg);
     background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.profile-image-yako {
+    background-image: url(Images/yako.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    /* position: relative; */
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.profile-image-pa {
+    background-image: url(Images/pierre-antoine.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.profile-image-jul {
+    background-image: url(Images/jules.jpg);
+    /* background-position: center; */
     background-size: cover;
     /* position: relative; */
     width: 150px;
