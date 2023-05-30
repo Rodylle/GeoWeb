@@ -627,7 +627,7 @@ ul {
 
 /* responsive */
 
-section.boxes{
+.boxes{
     display: none;
 }
 
