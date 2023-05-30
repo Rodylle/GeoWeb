@@ -751,6 +751,7 @@ ul {
         border-radius: 50%;
         background-position: center;
         object-fit: cover;
+        object-position: top;
       }
       
       .circle1 span {
