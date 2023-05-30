@@ -138,12 +138,6 @@ section.fond {
 
 
 
-
-
- /* Développeurs */
-
-    /* Nos développeurs   */
-
  section.buttons {
     position: relative;
     width: 100%;
@@ -156,7 +150,7 @@ section.fond {
 
 
 .containers {
-    height: 100%;
+    height: 100px;
     margin: 0 auto;
     text-align: center;
     padding: 50px;
@@ -202,6 +196,7 @@ section.fond {
     align-items: center;
     background-color: #00989e;
     height: 10vh;
+    
 }
 
 /* .h3 {
@@ -283,7 +278,7 @@ h1 {
 
 .box {
     color: #333;
-    width: 400px;
+    width: 300px;
     min-height: 200px;
     padding: 20px;
     border-radius: 3px;
@@ -330,21 +325,6 @@ h1 {
     margin-top: 10px;
 }
 
-/* @media screen and (max-width: 1000px) {
-
-    .ligne {
-        position: relative;
-        left: 200px;
-    }
-    .rond {
-        left: calc(50% + 200px);
-    }
-    .box {
-        left: calc(50% - 50px)
-    }
-
-} */
-
 section.tesla {
     background-color: #00989e;
     margin: 0;
@@ -358,27 +338,25 @@ section.tesla {
     justify-content: space-between;
     padding: 40px;
     width: 60%;
+    /* width: 400px; */
     margin: 0 auto 0 auto;
     border-radius: 50px;
     box-shadow: 0 10px 15px rgba(0,0,0,0.5);
     align-items: center;
+    /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; */
+    
 }
 
 img.pepsi{
     height: 250px;
-    
-}
-
-h2.netflix{
-    margin: 0;
-    color: greenyellow;
-    
 }
 
 p.coca{
     color: #c0bdbd;
     margin-right: 15px;
-    
 }
 
 
@@ -387,7 +365,6 @@ p.coca{
 section.ppl {
     background-color: #00989e;
     height: 80vh;
-    /* width: 100vw; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -650,7 +627,7 @@ ul {
 
 /* responsive */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 
     .ligne {
         position: relative;
@@ -663,20 +640,206 @@ ul {
         left: calc(50% - 50px)
     }
 
+    section.tesla {
+        height: 700px;
+    }
+
+    .blablacar {
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 860px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        height: 150px;
+    }
+    section.ppl {
+        height: 60vh;
+    }
+}
+
+@media (max-width: 768px) {
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
     }
+    section.ppl {
+        height: 65vh;
+    }
 }
+
+
 
 @media (max-width: 574px) {
     .footer-col{
         width: 100%;
     }
+
+    .btn{
+        font-size: 30px;
+    }
+
+    section.ppl {
+        height: 100vh;
+    }
+    section.tesla {
+        height: 730px;
+    }
+
+    .blablacar {
+        width: 350px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .h3 {
+        font-size: 25px;
+    }
+
+    
+
+    /* .este{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        text-align: center;
+        background-size: cover;
+    
+        
+    } */
+
+    section.ppl {
+        display: none;
+    }
+
+    .resp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1200px;
+        margin: 0;
+        background-color: #00989e;
+      }
+      
+      .circle-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .circle1 {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f1f1f1;
+        margin-bottom: 20px;
+        
+      }
+      
+      .circle1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-position: center;
+      }
+      
+      .circle1 span {
+        margin-top: 10px;
+        text-align: center;
+      }
+
+      .btn2{ 
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .ligne{
+        display: none;
+    }
+
+    .rond{
+        display: none;
+    }
+
+    section.timeline {
+        display: none;
+    }
+
+    section.boxes{
+        background-color: #00989e;
+    }
+
+    .boites {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .boi {
+        width: 300px;
+        padding: 20px;
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      
+      .boi h2 {
+        font-size: 20px;
+        margin-top: 0;
+      }
+      
+      .boi p {
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+      
+      
+
 }
+
+@media (max-width:280px) {
+    section.tesla {
+        height: 980px;
+    }
+
+    .blablacar {
+        width: 250px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+
+    .btn{
+        font-size: 20px;
+    }
+
+    .btn2{ 
+        padding: 20px;
+        font-size: 3px;
+    }
+
+    .boi{
+        width: 150px;
+    }
+}
+
+
+
+
 
 
 
