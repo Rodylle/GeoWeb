@@ -627,12 +627,21 @@ ul {
 
 /* responsive */
 
-.boites{
+/* .boites{
     display: none;
 }
 
 .circle-container {
     display:none
+} */
+
+@media screen and (min-width: 1201px) {
+    .boites{
+        display:none;
+    }
+    .circle-container{
+        display:none;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -679,6 +688,7 @@ ul {
     section.ppl {
         height: 65vh;
     }
+
 }
 
 
