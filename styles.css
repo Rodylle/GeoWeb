@@ -750,6 +750,7 @@ ul {
         height: 100%;
         border-radius: 50%;
         background-position: center;
+        object-fit: cover;
       }
       
       .circle1 span {
