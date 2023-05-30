@@ -702,18 +702,7 @@ ul {
         font-size: 25px;
     }
 
-    
 
-    /* .este{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        overflow: hidden;
-        text-align: center;
-        background-size: cover;
-    
-        
-    } */
 
     section.ppl {
         display: none;
@@ -763,14 +752,6 @@ ul {
       .btn2{ 
         padding: 20px;
         font-size: 10px;
-    }
-
-    .ligne{
-        display: none;
-    }
-
-    .rond{
-        display: none;
     }
 
     section.timeline {
