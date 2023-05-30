@@ -627,13 +627,6 @@ ul {
 
 /* responsive */
 
-/* .boites{
-    display: none;
-}
-
-.circle-container {
-    display:none
-} */
 
 @media screen and (min-width: 576px) {
     .boites{
