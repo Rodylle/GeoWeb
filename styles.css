@@ -635,7 +635,7 @@ ul {
     display:none
 } */
 
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 576px) {
     .boites{
         display:none;
     }
