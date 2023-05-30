@@ -627,11 +627,11 @@ ul {
 
 /* responsive */
 
-.boxes{
+.boites{
     display: none;
 }
 
-.resp {
+.circle-container {
     display:none
 }
 
